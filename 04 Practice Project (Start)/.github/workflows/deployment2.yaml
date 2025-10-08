@@ -1,5 +1,5 @@
 name: Deployment Excerise actions 2
-on:
+on: 
   push:
     branches:
       - master
