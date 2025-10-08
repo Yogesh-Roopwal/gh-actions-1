@@ -1,8 +1,5 @@
 name: Deployment Excerise 1
-on:
-  push:
-    branches:
-      - master
+on: [push, workflow_dispatch]
 jobs:
   deploy:
     runs-on: ubuntu-latest
