@@ -1,5 +1,8 @@
 name: Deployment Excerise 2
-on:  push
+on:
+  push:
+    branches:
+      - master
 jobs:
   lint:
     runs-on: ubuntu-latest
