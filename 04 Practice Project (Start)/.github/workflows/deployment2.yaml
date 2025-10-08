@@ -1,4 +1,4 @@
-name: Deployment Excerise 2
+name: Deployment Excerise actions 2
 on:
   push:
     branches:
